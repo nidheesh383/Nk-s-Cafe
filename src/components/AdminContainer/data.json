@@ -1,0 +1,10 @@
+{
+  "message": "Something went wrong",
+  "adCont": "Admin Container",
+  "uploadTxt": "Click Here to Upload",
+  "contTitle": "Title",
+  "inr": "Price",
+  "actionBtn": {
+    "save": "Save"
+  }
+}

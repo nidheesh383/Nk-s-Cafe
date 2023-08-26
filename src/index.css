@@ -1,0 +1,29 @@
+
+*{
+  margin:"0";
+  padding: "0";
+  box-sizing: border-box;
+ 
+}
+p{
+  color: #43301f;
+}
+
+h2{
+  font-family: "Cormorant Garamond", Helvetica, Arial, sans-serif;
+  color: #947848;
+}
+
+h1{
+  font-family: Parisienne;
+}
+
+html, body{
+  scroll-behavior: smooth;
+  background-color: #f5f3f3; 
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

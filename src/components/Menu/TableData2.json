@@ -1,0 +1,23 @@
+{
+  "title": "BAUGETTE",
+  "row": [
+    {
+      "id": "1",
+      "dish": "Bacon & Egg",
+      "content": "bacon and cheese with tomato pesto & black olives.",
+      "price": "₹ 200 "
+    },
+    {
+      "id": "2",
+      "dish": "Turia & Cheddar",
+      "content": " with top fried egg.",
+      "price": "₹ 190 "
+    },
+    {
+      "id": "3",
+      "dish": "Chicken & Mayo",
+      "content": "with chicken, tomato pesto & black olives.",
+      "price": "₹ 220 "
+    }
+  ]
+}

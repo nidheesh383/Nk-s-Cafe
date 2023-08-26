@@ -1,0 +1,23 @@
+{
+  "title": "DESSERTS",
+  "row": [
+    {
+      "id": "1",
+      "dish": "Café Gourmand ",
+      "content": "an espreso with mint bites.",
+      "price": "₹ 190 "
+    },
+    {
+      "id": "2",
+      "dish": "Moelleux au Chocolat",
+      "content": "chocolate cake with vanila ice cream.",
+      "price": "₹ 170 "
+    },
+    {
+      "id": "3",
+      "dish": "Fruit Salad",
+      "content": "with vanila ice cream.",
+      "price": "₹ 160 "
+    }
+  ]
+}

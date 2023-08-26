@@ -1,0 +1,17 @@
+{
+  "title": "GAZPACHO",
+  "row": [
+    {
+      "id": "1",
+      "dish": "Red ",
+      "content": "tomato & red bell pepper.",
+      "price": "₹ 170 "
+    },
+    {
+      "id": "2",
+      "dish": "Green",
+      "content": "cucumber and mint with top fried egg.",
+      "price": "₹ 150 "
+    }
+  ]
+}

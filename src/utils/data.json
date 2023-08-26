@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Tartines",
+      "urlParamName": "tartines"
+    },
+    {
+      "id": "2",
+      "name": "Baugette",
+      "urlParamName": "baugette"
+    },
+    {
+      "id": "3",
+      "name": "Gazpacho",
+      "urlParamName": "gazpacho"
+    },
+    {
+      "id": "4",
+      "name": "Salads",
+      "urlParamName": "salads"
+    },
+    {
+      "id": "5",
+      "name": "Desserts",
+      "urlParamName": "desserts"
+    },
+    {
+      "id": "6",
+      "name": "Beverages",
+      "urlParamName": "beverages"
+    }
+  ]
+}
