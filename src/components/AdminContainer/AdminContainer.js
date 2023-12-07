@@ -1,6 +1,8 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import data from "./data.json";
+import TextField from "@mui/material/TextField";
+import InputAdornment from "@mui/material/InputAdornment";
 import FastfoodIcon from "@mui/icons-material/Fastfood";
 import Loader from "./Loader.js";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
@@ -197,17 +199,22 @@ const AdminContainer = () => {
             </motion.p>
           )}
           <div className="pt-10">
-            <input
+            <TextField
               required
               id="title"
               placeholder={contTitle}
               value={title}
               onChange={(e) => setTitle(e.target.value)}
-              className="w-full p-2 border-b-2 border-gray-300 outline-none"
+              variant="standard"
+              InputProps={{
+                startAdornment: (
+                  <InputAdornment position="start">
+                    <FastfoodIcon />
+                  </InputAdornment>
+                ),
+              }}
             />
-            <FastfoodIcon className="absolute top-3 left-3 text-gray-500" />
           </div>
-
           <div>
             <select
               onChange={(e) => setCategory(e.target.value)}
@@ -271,14 +278,21 @@ const AdminContainer = () => {
               </>
             )}
           </div>
-          <div className="pt-10 relative">
-            <input
+          <div className="pt-10">
+            <TextField
               id="input-with-icon-textfield"
               type="number"
               placeholder={inr}
               value={price}
               onChange={(e) => setPrice(e.target.value)}
-              className="w-full p-2 border-b-2 border-gray-300 outline-none"
+              variant="standard"
+              InputProps={{
+                startAdornment: (
+                  <InputAdornment position="start">
+                    <CurrencyRupeeIcon />
+                  </InputAdornment>
+                ),
+              }}
             />
           </div>
           <div className="flex items-center justify-center mt-10">
