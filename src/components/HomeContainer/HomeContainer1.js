@@ -1,6 +1,5 @@
 import React from "react";
 import MainContainerImage from "../../../src/assests/img/mainImg.png";
-import "./HomeContainer.css";
 import { Button } from "@mui/material";
 // import Finisher from "../../../src/assests/img/mainImgFinisher.png";
 import Data from "./HomeContainer.json";

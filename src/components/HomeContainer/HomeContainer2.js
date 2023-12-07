@@ -1,5 +1,4 @@
 import React from "react";
-import "./HomeContainer.css";
 import { Button } from "@mui/material";
 import { motion } from "framer-motion";
 import Data from "./HomeContainer.json";
@@ -31,11 +30,13 @@ const HomeContainer1 = () => {
               <div key={item?.id}>
                 <motion.div
                   className="imageWrapper"
+                  initial={{ rotate: 0 }}
                   whileHover={{ scale: 1.5, rotate: 360 }}
                   whileTap={{ scale: 0.8, rotate: -180, borderRadius: "100%" }}
                 >
                   <img src={item?.image} alt="img" />
                 </motion.div>
+
                 <div className="descWrapper">
                   <h4 className=" text-2xl title my-5">{item?.title}</h4>
                   <p className="desc">{item?.subContent}</p>

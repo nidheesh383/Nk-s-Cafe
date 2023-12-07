@@ -2,9 +2,10 @@
   "categories": [
     {
       "id": "1",
-      "name": "Tartines",
-      "urlParamName": "tartines"
+      "name": "Salads",
+      "urlParamName": "salads"
     },
+
     {
       "id": "2",
       "name": "Baugette",
@@ -17,8 +18,8 @@
     },
     {
       "id": "4",
-      "name": "Salads",
-      "urlParamName": "salads"
+      "name": "Tartines",
+      "urlParamName": "tartines"
     },
     {
       "id": "5",

@@ -152,12 +152,16 @@ const AdminContainer = () => {
 
   // whenever uploading a new data this function will add it to the state provider so that the new data will be updated accordingly foodItems will be updated accordingly
   const fetchData = useCallback(async () => {
-    await getAllFoodItems().then((data) => {
+    try {
+      const data = await getAllFoodItems();
       dispatch({
         type: actionType.SET_FOOD_ITEMS,
         foodItems: data,
       });
-    });
+    } catch (error) {
+      // Handle error appropriately, e.g., log or show an error message
+      console.error("Error fetching data:", error);
+    }
   }, [dispatch]);
 
   useEffect(() => {
