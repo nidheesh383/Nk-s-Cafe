@@ -1,4 +1,5 @@
 import React from "react";
+import "./HomeContainer.css";
 import { Button } from "@mui/material";
 import { motion } from "framer-motion";
 import Data from "./HomeContainer.json";

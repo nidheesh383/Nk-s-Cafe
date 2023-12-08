@@ -1,4 +1,5 @@
 import React from "react";
+import "./HomeContainer.css";
 import MainContainerImage from "../../../src/assests/img/mainImg.png";
 import { Button } from "@mui/material";
 // import Finisher from "../../../src/assests/img/mainImgFinisher.png";
